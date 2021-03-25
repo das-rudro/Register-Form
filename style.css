@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background: #77E3EA;
+    height: 100vh;
+    padding: 120px;
+}
+
+.form-box{
+    background: white;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.left-item{
+    flex-basis: 47%;
+    background: #3387BE;
+    padding: 40px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.left-item h1{
+    font-family: system-ui;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.left-item p{
+    font-family: arial;
+    color: #F5DEB3;
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 20px;
+}
+
+.left-item h5{
+    color: lightgray;
+    line-height: 15px;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.left-item h5 span{
+    margin-right: 8px;
+    font-family: system-ui;
+    text-transform: uppercase;
+}
+
+.button button{
+    color: #616161;
+    background:#F5DEB3;
+    border: none;
+    padding: 4%;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 5%;
+    border-radius: 8px 0px 8px 0px;
+    cursor: pointer;
+}
+
+.button:hover button{
+    background: white;
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 0px 8px 0px 8px;
+}
+
+.right-item{
+    flex-basis: 50%;
+    padding: 40px;
+}
+
+.right-item h1{
+    color: cornflowerblue;
+    font-family: system-ui;
+    margin-bottom: 30px;
+}
+
+.name-box{
+    display: flex;
+}
+
+.name-box input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+}
+
+.first-name{
+    margin-right: 8px;
+}
+
+.first-name label{
+    text-transform: uppercase;
+    font-family: arial;
+    color: #808080;
+    font-weight: 600;
+}
+
+.first-name input{
+    width: 95%;
+    height: 25px;
+}
+
+.last-name{
+    margin-right: 8px;
+
+}
+
+.last-name label{
+    text-transform: uppercase;
+    font-family: arial;
+    color: #808080;
+    font-weight: 600;
+}
+
+.last-name input{
+    width:95%;
+    height: 25px;
+}
+
+.email-box{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.email-box label{
+    text-transform: uppercase;
+    font-family: arial;
+    color: #808080;
+    font-weight: 600;
+}
+
+.email-box input{
+    width: 92%;
+    height: 25px;
+}
+
+.email-box input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray
+}
+
+.pass-box{
+    display: flex;
+}
+
+.password{
+    margin-right: 8px;
+    margin-top: 25px;
+}
+
+.password label{
+    text-transform: uppercase;
+    font-family: arial;
+    color: #808080;
+    font-weight: 600;
+}
+
+.password input{
+    width: 95%;
+    height: 25px;
+}
+
+.pass-box input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+}
+
+.confirm-password{
+    margin-top: 25px;
+}
+
+.confirm-password label{
+    text-transform: uppercase;
+    font-family: arial;
+    color: #808080;
+    font-weight: 600;
+}
+
+.confirm-password input{
+    width: 95%;
+    height: 25px;
+}
+
+.cheak-term{
+    display: flex;
+    margin-top: 25px;
+}
+
+.cheak-box{
+    margin-right: 10px;
+}
+
+.cheak-term p{
+    font-family: arial;
+    margin-bottom: 30px;
+}
+
+.cheak-term a{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+
+.register-button button{
+    background: #3387be;
+    color: white; 
+    border: none;
+    padding: 2% 8%; 
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 5%;
+    font-family: sans-serif;
+    border-radius: 8px 0px 8px 0px;
+    cursor: pointer;
+}
+
+.register-button:hover button{
+    background: #F5DEB3;
+    border-radius: 0px 8px 0px 8px;
+    color: gray;;
+}
